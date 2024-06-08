@@ -1,0 +1,110 @@
+@font-face {
+    font-family: outfit;
+    src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf) ;
+}
+@font-face {
+    font-family: youngserif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf) ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+
+}
+
+.container{
+max-width:900px;
+margin-inline: auto;
+background-color: white;
+}
+.banner article{
+    background-color:hsl(330, 100%, 98%);
+    padding:1.5rem;
+    border-radius: 0.5rem;
+    margin-top:1.5rem;
+}
+li{
+     margin-top: 0.5rem;
+}
+
+
+ul,ol{
+    padding-left: 20px;
+}
+
+h1,h2{
+    font-family: youngserif;
+    color:hsl(14, 45%, 36%);
+    letter-spacing:0.05rem;
+}
+
+.container div:not(first-child){
+    padding: 1.5rem;
+}
+p,li{
+    line-height:1.6;
+    color:hsl(30, 10%, 34%)
+}
+
+.banner h1{
+    margin-bottom: 1rem;
+    color: hsl(24,5%,18%);
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: outfit;
+   background-color: hsl(30, 54%, 90%);
+}
+.banner article h3{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 0.5rem;
+}
+.instructions{
+    border-top:1px solid hsl(30, 18%, 87%);
+    border-bottom:1px solid hsl(30, 18%, 87%);
+
+}
+.nutrition p {
+    margin-top: 1rem;
+
+}
+.nutrition .flex{
+    display: flex;
+    justify-content: center;
+}
+td{
+    border-bottom:1px solid blue;
+    padding:1rem 5.5rem ;
+    font-family: outfit;
+    color:hsl(30, 10%, 34%);
+    border-color: hsl(30, 18%, 87%);;
+
+}
+tr:last-child td{
+    border-bottom:none;
+   
+}
+
+  .attribution {margin-bottom: 5rem; margin-top: 1rem;font-size: 13px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+
+  @media (min-width:768px){
+    .container{
+        margin: 5rem auto 0;
+        padding:2rem;
+        border-radius:1rem;
+
+    }
+    img{
+        border-radius:1rem;
+    }
+    .banner h1{
+        font-size: 48px;
+    }
+  }
